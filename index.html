@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Linked List</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="reset.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <main class='form'>
+            <div class='logo'>
+                <h1>Linked <img src="images/linked-list-logo.svg" alt="linked list log"> List
+                </h1>
+            </div>
+            <div class="form">
+                <input type="text" id='website-title' placeholder='Website Title '>
+                <input type="text" id='website-url' placeholder='Website URL'>
+                <button id='enter' type='button' disabled/>Enter</button>
+            </div>
+        </main>
+
+        <aside class='links'>
+            <span class='count'></span>
+            <div class='bookmark hidden' id="template">
+                <h3></h3>
+                <div class="url">
+                    <a href="#">www.thewebsite.url</a>
+                </div>
+                <div class='button-container'>
+                    <a href="#" class="read-button">Read</a>
+                    <a href="#" class="delete-button">Delete</a>
+                </div>
+            </div>
+        </aside>
+        <script src=script.js></script>
+    </div>
+</body>
+
+</html>
