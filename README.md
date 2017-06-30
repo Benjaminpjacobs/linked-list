@@ -1,5 +1,11 @@
 # A List of Stored Links!
 
+## Installation
+
+Check the repo out from GitHub and run `index.html` in your local browser.
+
+## Description
+
 * To the left - A section to add new bookmarks
 Two input fields and a Button.
 Field one is for the title of the bookmark.
@@ -20,4 +26,3 @@ When the user clicks on the button for creating the bookmark, it should be added
 A class of .read should be added to the bookmark.
 If it already has the class of .read, it should be removed.
 When the user clicks on the “Remove” button, the link should be removed from the page.
-
