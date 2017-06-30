@@ -1,4 +1,5 @@
 # A List of Stored Links!
+![Alt text](https://raw.github.com/Benjaminpjacobs/linked-list/master/screen-shots/linked-list.png?raw=true "Optional Title")
 
 ## Installation
 
